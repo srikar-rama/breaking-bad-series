@@ -40,6 +40,9 @@ function MainHeader() {
             <div class="carousel-item">
               <img src="https://www.tvmovie.de/assets/2019/09/18/72861-diese-breaking-bad-figur-kehrt-in-el-camino-zurueck.jpg" class="d-block w-100" alt="..."></img>
             </div>
+            <div class="carousel-item">
+              <img src="https://netflixlife.com/files/2015/08/Breakingbad4-AMC1.jpg" class="d-block w-100" alt="..."></img>
+            </div>
           </div>
         </div>
       </div>
