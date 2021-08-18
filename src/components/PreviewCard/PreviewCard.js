@@ -5,7 +5,7 @@ import "./styles.css";
 
 export default function PreviewCard({ name, occupation, dob, status, link }) {
   return (
-    <div class="card text-white previewCard m-3" style={{ maxWidth: "18rem" }}>
+    <div class="card text-dark previewCard m-3" style={{ maxWidth: "18rem" }}>
       <div class="card-header text-center">{name}</div>
       <div class="card-body">
         {/* <h5 class="card-title">Dark card title</h5> */}
@@ -31,7 +31,7 @@ export default function PreviewCard({ name, occupation, dob, status, link }) {
       <Link style={{ textDecoration: "none", color: "white" }} to={link}>
         <button
           type="button"
-          class="card-footer mt-2 mb-2 btn btn-outline-success border-success w-100"
+          class="mt-2 mb-2 btn btn-outline-info w-100"
         >
           View
         </button>
