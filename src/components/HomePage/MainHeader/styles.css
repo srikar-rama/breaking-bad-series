@@ -1,0 +1,80 @@
+.mainHeader {
+    /* background: url("http://localhost:3000/images/wp_png2.png") !important; */
+    background: linear-gradient(to left,#000,transparent);
+    width: 100%;
+}
+
+.headerLeftBox {
+    background-color: #181818;
+    /* background: linear-gradient(to right,#000,transparent); */
+    position: relative;
+}
+
+.headerLeftTitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+.headerRightBox {
+    background: transparent !important;
+    padding: 0px;
+}
+.headerLeftBox::after {
+    content: '';
+    position: absolute;
+    /* background: linear-gradient(to right,#181818,transparent); */
+
+    background: -webkit-gradient(linear,left top,right top,color-stop(10%,#181818),color-stop(20%,rgba(23,23,23,.98)),color-stop(25%,rgba(23,23,23,.97)),color-stop(35%,rgba(23,23,23,.95)),color-stop(40%,rgba(23,23,23,.94)),color-stop(45%,rgba(23,23,23,.92)),color-stop(50%,rgba(23,23,23,.9)),color-stop(55%,rgba(23,23,23,.87)),color-stop(60%,rgba(23,23,23,.82)),color-stop(65%,rgba(23,23,23,.75)),color-stop(70%,rgba(23,23,23,.63)),color-stop(75%,rgba(23,23,23,.45)),color-stop(80%,rgba(23,23,23,.27)),color-stop(85%,rgba(23,23,23,.15)),color-stop(90%,rgba(23,23,23,.08)),color-stop(95%,rgba(23,23,23,.03)),to(rgba(23,23,23,0)));
+
+    background: -webkit-linear-gradient(left,#181818 10%,rgba(23,23,23,.98) 20%,rgba(23,23,23,.97) 25%,rgba(23,23,23,.95) 35%,rgba(23,23,23,.94) 40%,rgba(23,23,23,.92) 45%,rgba(23,23,23,.9) 50%,rgba(23,23,23,.87) 55%,rgba(23,23,23,.82) 60%,rgba(23,23,23,.75) 65%,rgba(23,23,23,.63) 70%,rgba(23,23,23,.45) 75%,rgba(23,23,23,.27) 80%,rgba(23,23,23,.15) 85%,rgba(23,23,23,.08) 90%,rgba(23,23,23,.03) 95%,rgba(23,23,23,0) 100%);
+
+    background: -moz- oldlinear-gradient(left,#181818 10%,rgba(23,23,23,.98) 20%,rgba(23,23,23,.97) 25%,rgba(23,23,23,.95) 35%,rgba(23,23,23,.94) 40%,rgba(23,23,23,.92) 45%,rgba(23,23,23,.9) 50%,rgba(23,23,23,.87) 55%,rgba(23,23,23,.82) 60%,rgba(23,23,23,.75) 65%,rgba(23,23,23,.63) 70%,rgba(23,23,23,.45) 75%,rgba(23,23,23,.27) 80%,rgba(23,23,23,.15) 85%,rgba(23,23,23,.08) 90%,rgba(23,23,23,.03) 95%,rgba(23,23,23,0) 100%);
+
+    background: -o-linear-gradient(left,#181818 10%,rgba(23,23,23,.98) 20%,rgba(23,23,23,.97) 25%,rgba(23,23,23,.95) 35%,rgba(23,23,23,.94) 40%,rgba(23,23,23,.92) 45%,rgba(23,23,23,.9) 50%,rgba(23,23,23,.87) 55%,rgba(23,23,23,.82) 60%,rgba(23,23,23,.75) 65%,rgba(23,23,23,.63) 70%,rgba(23,23,23,.45) 75%,rgba(23,23,23,.27) 80%,rgba(23,23,23,.15) 85%,rgba(23,23,23,.08) 90%,rgba(23,23,23,.03) 95%,rgba(23,23,23,0) 100%);
+
+    background: linear-gradient(to right,#181818 10%,rgba(23,23,23,.98) 20%,rgba(23,23,23,.97) 25%,rgba(23,23,23,.95) 35%,rgba(23,23,23,.94) 40%,rgba(23,23,23,.92) 45%,rgba(23,23,23,.9) 50%,rgba(23,23,23,.87) 55%,rgba(23,23,23,.82) 60%,rgba(23,23,23,.75) 65%,rgba(23,23,23,.63) 70%,rgba(23,23,23,.45) 75%,rgba(23,23,23,.27) 80%,rgba(23,23,23,.15) 85%,rgba(23,23,23,.08) 90%,rgba(23,23,23,.03) 95%,rgba(23,23,23,0) 100%);
+    width: 57%;
+    right: -57%;
+    border: none;
+    outline: none;
+    height: 100%;
+}
+.headerRightBox > img {
+    float: right;
+    border: none;
+}
+
+.titleSubInfo {
+    color: #A3A3A3;
+    /*  */
+    position: relative;
+    width: max-content;
+    max-width: 181%;
+    z-index: 1;
+}
+.eighteenPlus {
+    border: solid 1px #A3A3A3;
+}
+.titleDesc {
+    font-size: 16px;
+    padding-top: 3rem;
+}
+.titleDesc > p {
+    position: relative;
+    width: max-content;
+    max-width: 166%;
+    z-index: 2;
+}
+/* Mobiles */
+@media only screen and (max-width: 767px) {
+    .mainHeader {
+        flex-direction: column-reverse;
+    }
+    .titleDesc > p,
+    .titleSubInfo{
+        width: unset;
+        max-width: unset;
+    }
+    .headerLeftBox::after {
+        display: none;
+    }
+  }

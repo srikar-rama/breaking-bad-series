@@ -1,0 +1,75 @@
+.characterCard{
+    height:fit-content;
+    box-shadow: 0px 0px 5px 0px white;
+-webkit-box-shadow: 0px 0px 5px 0px white;
+-moz-box-shadow: 0px 0px 5px 0px white;
+background-color: #290C0E;
+}
+.characterTable{
+    color: white;
+}
+.maincard{
+    display: flex;
+    justify-content: center;
+}
+.imagecard{
+    display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.innerimage{
+    width: 50%;
+    height: auto;
+    padding-top: 10px;
+}
+.characterName{
+    font-size: 1.3em;
+}
+.TablecolumnWidth{
+    width: 40%;
+}
+.tableContent{
+    white-space: nowrap;
+}
+
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 1rem 5rem;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 2rem 3.5rem;
+        color: white;
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+      
+        line-height: 1.5rem
+    }
+    .maincard{
+        box-shadow: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

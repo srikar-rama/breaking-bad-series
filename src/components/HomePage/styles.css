@@ -1,0 +1,36 @@
+.sectionLine {
+  background: #d6c8c8;
+  border: solid #d6c8c8 3px;
+  border-bottom-style: solid;
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sectionTitle {
+  /* text-align: center;
+  font-size: 32px;
+  line-height: 61px;
+  letter-spacing: 0.15em;
+  font-weight: 800;
+  text-decoration: underline; */
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 8px;
+  border-bottom-style: solid;
+  border-bottom-color: #d6c8c8;
+  border-bottom-width: 3.1px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.gallery {
+  background: #2c2626;
+  border-radius: 20px;
+}
+.bottomContainer{
+  margin-left: 0 !important;
+}

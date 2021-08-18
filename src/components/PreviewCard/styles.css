@@ -1,0 +1,8 @@
+.previewCard {
+  background: #181818;
+}
+.previewCard > .card-header {
+  border-bottom: solid 1px #d6c8c8;
+  font-size: 28px;
+  letter-spacing: 0.15em;
+}
