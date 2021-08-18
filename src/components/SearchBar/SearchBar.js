@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory } from 'react-router-dom'
 import { FaSearch } from 'react-icons/fa'
+import {BsSearch}from 'react-icons/bs';
 import { useQuery } from "../utils";
 import "./styles.css";
 
@@ -19,8 +20,8 @@ export default function SearchBar({ onSubmit, onChange, text, ...props }) {
           onChange={(e) => onChange(e.target.value)}
         />
         <div class="input-group-append">
-          <span class="input-group-text" id="search-input">
-            <FaSearch onClick={() => {
+          <span class="input-group-text searchicon" id="search-input">
+            <BsSearch  onClick={() => {
               let trimmedText = text.trim();
               trimmedText = trimmedText.replace(/\s/g, ' ');
               if (trimmedText.length < 1) {

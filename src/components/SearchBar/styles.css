@@ -1,3 +1,6 @@
 #search-input {
     font-size: 26px;
 }
+.searchicon{
+    background-image: linear-gradient(rgb(6, 159, 206),white);
+}

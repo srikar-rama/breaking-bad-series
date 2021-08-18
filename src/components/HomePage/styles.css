@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 .sectionLine {
   background: #d6c8c8;
   border: solid #d6c8c8 3px;
@@ -26,6 +27,9 @@
   width: fit-content;
   margin: auto;
   margin-bottom: 10px;
+  font-family: 'Playball', cursive;
+  padding-top: 8px;
+
 }
 .gallery {
   background: #2c2626;

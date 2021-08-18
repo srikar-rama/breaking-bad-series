@@ -23,7 +23,7 @@ export default function SearchPage() {
   }, [query.get("name")]);
   return (
     <div className="container-fluid p-0 m-0">
-      <h1 className="sectionTitle">Search your ❝❤️❞ character</h1>
+      <h1 className="sectionTitle">Search your favourite character</h1>
       <div className="row w-100 mt-2 bottomContainer">
         <Link to="/" style={{ width: "max-content", marginRight: "auto" }}>
           <button className="btn btn-secondary">Back</button>
