@@ -16,6 +16,7 @@ function MainHeader() {
           </div>
           <div className="titleDesc">
             <p className="col">
+              Breaking Bad is an American neo-Western crime drama television series.
               A terminally ill chemistry teacher teams with a former student to
               manufacture crystal meth to secure his family's future.
             </p>
